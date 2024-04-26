@@ -1,0 +1,25 @@
+header{
+    @include flex(row, wrap, space-between, center);
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+    background-color: aqua;
+    width: 100%;
+
+    h2{
+        a{
+            font-size: 24px;
+        }
+    }
+}
+
+@media screen and (min-width:1024px) {
+    header{
+        @include flex(row, nowrap, space-evenly, center);
+        h2{
+            a{
+                font-size: 32px;
+            }
+        }
+    }
+}

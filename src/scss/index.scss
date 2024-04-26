@@ -1,3 +1,9 @@
+@import "./utils/mixin";
+
+@import "./components/header/header";
+@import "./components/header/navbar";
+
+
 *{
     margin: 0;
     padding: 0;

@@ -3,8 +3,10 @@ import NavBar from "./NavBar";
 const Header = () => {
 	return (
 		<header>
-			<h2 href="#">ARK/</h2>
-			<NavBar/>
+			<h2>
+				<a href="#">ARK/</a>
+			</h2>
+			<NavBar />
 		</header>
 	);
 };
