@@ -118,6 +118,39 @@ nav.isActive {
     display: none;
   }
 }
+footer {
+  padding: 2rem 1rem;
+  width: 100%;
+  background-color: rgb(46, 46, 46);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .copy {
+  color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+.redes {
+  width: 2rem;
+  margin: 0 0.5rem;
+}
+
 * {
   margin: 0;
   padding: 0;

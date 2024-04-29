@@ -1,6 +1,6 @@
-const Redes = ({icon}) => {
+const Redes = ({icon, link}) => {
   return (
-    <a href="#">{icon}</a>
+    <a className="redS" href={link} target="_blank">{icon}</a>
   )
 }
 export default Redes

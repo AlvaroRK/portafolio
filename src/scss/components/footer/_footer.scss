@@ -1,0 +1,16 @@
+footer {
+	padding: 2rem 1rem;
+	width: 100%;
+	background-color: rgb(46, 46, 46);
+	@include flex(row, wrap, space-between, center);
+
+	.copy {
+		color: white;
+	}
+}
+
+@media screen and (min-width:1024px){
+	footer{
+		justify-content: space-around;
+	}
+}
